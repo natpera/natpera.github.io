@@ -1,11 +1,13 @@
 body {
-	text-align: center;
+	text-align: left;
+	background-image: images/picktone_hero.jpg;
+    background-repeat: no-repeat;
 }
 h1 {
 	font-family: Courier, monospace;
 	font-weight: normal;
 	text-decoration: underline;
-	
+	text-align: center;
 }
 
 h1{ 
