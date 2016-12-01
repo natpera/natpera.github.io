@@ -10,24 +10,30 @@ h1 {
 	font-size: 20px;
 }
 
+#second
+{
+	font-family: Courier, monospace;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
 h4 {
 	font-family: Courier, monospace;
 	font-weight: lighter;
 	text-align: left;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 ul {
 	font-family: Courier, monospace;
+	font-weight: lighter;
     text-align: left;
-    font-size: 14px;
+    font-size: 10px;
     
 }
 
-p {
-	font-family: Courier, monospace;
-	font-size: 12px;
-}
 
 
 
