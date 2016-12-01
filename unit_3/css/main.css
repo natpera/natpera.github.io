@@ -33,7 +33,6 @@ ul {
 	font-weight: lighter;
     text-align: left;
     font-size: 10px;
-    color: #A9A9A9
     
 }
 
@@ -47,3 +46,7 @@ p
 }
 
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
