@@ -15,12 +15,13 @@ h4 {
 	font-weight: lighter;
 	text-align: left;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 ul {
 	font-family: Courier, monospace;
     text-align: left;
+    font-size: 14px;
     
 }
 
