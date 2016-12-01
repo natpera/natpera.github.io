@@ -4,16 +4,17 @@ body {
 
 h1 {
 	font-family: Courier, monospace;
-	font-weight: lighter;
+	font-weight: light;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 #second
 {
 	font-family: Courier, monospace;
 	font-weight: lighter;
+	font-style:italic;
 	text-align: center;
 	text-transform: lowercase;
 	font-size: 12px;
@@ -22,6 +23,7 @@ h1 {
 h4 {
 	font-family: Courier, monospace;
 	font-weight: lighter;
+	text-decoration: underline;
 	text-align: left;
 	font-size: 11px;
 }
