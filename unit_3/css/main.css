@@ -7,7 +7,7 @@ h1 {
 	font-weight: lighter;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 #second
@@ -16,14 +16,14 @@ h1 {
 	font-weight: lighter;
 	text-align: center;
 	text-transform: lowercase;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 h4 {
 	font-family: Courier, monospace;
 	font-weight: lighter;
 	text-align: left;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 ul {
@@ -34,6 +34,13 @@ ul {
     
 }
 
-
+p
+{
+	font-family: Courier, monospace;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 11px;
+}
 
 
