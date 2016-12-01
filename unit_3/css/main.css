@@ -14,7 +14,8 @@ p {
 }
 
 .input[type=text] {
-    width: 130px;
+    align-self: center;
+    width: 250px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
