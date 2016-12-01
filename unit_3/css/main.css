@@ -1,14 +1,11 @@
 body {
 	text-align: left;
 }
+
 h1 {
 	font-family: Courier, monospace;
 	font-weight: normal;
 	text-align: left;
-}
-
-h1{ 
-font-weight: light;
 }
 
 p {
