@@ -1,0 +1,57 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	text-align: left;
+}
+
+h1 {
+	font-family: Courier, monospace;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+}
+
+#second
+{
+	font-family: Courier, monospace;
+	font-weight: lighter;
+	font-style:italic;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 11px;
+}
+
+h2 {
+	font-family: Courier, monospace;
+	font-weight: lighter;
+	text-decoration: underline;
+	text-align: left;
+	font-size: 11px;
+}
+
+ul {
+	font-family: Courier, monospace;
+	font-weight: lighter;
+    text-align: left;
+    font-size: 10px;
+    
+}
+
+p
+{
+	font-family: Courier, monospace;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 11px;
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
