@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:900');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
-body {
-	text-align: left;
-	background-image: url("https://natpera.github.io/unit_4/images/picktone_about_bw.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    vertical-align: middle;
-	background-color: #fff;
-	height: 500px;
-	padding-left: 25px;
-}
 
 header {
 	height: 500px;
@@ -24,6 +14,15 @@ header {
 	padding-top: 25px;
 }
 
+body {
+	text-align: left;
+	background-image: url("https://natpera.github.io/unit_4/images/picktone_about_bw.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+	background-color: #fff;
+	height: 500px;
+}
 
 h1 {
 	color: black;
