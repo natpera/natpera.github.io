@@ -43,7 +43,7 @@ h1 {
 h2 {
 	color: black;
 	font-family: 'Vollkorn', serif;
-	text-align: center;
+	text-align: left;
 	font-size: 45px;
 	margin: 75px 95px 75px 95px;
 }
@@ -51,9 +51,10 @@ h2 {
 ul {
 	color: black;
 	font-family: 'Vollkorn', serif;
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     list-style-type: none;
+    margin: 0px 0px 0px 95px;
 
     
 }
