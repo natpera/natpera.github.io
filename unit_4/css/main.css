@@ -1,6 +1,5 @@
 
-@import url(https://https://fonts.googleapis.com/css?family=Raleway:900);
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 header { 
     float: left;
@@ -25,7 +24,7 @@ h1 {
 	text-transform: uppercase;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
-	font-weight:900;
+	font-weight:black
 	letter-spacing: 3em; 
 }
 
