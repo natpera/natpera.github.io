@@ -9,14 +9,14 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
-	background-color: #fff;
+	background-color: seashell;
 	padding-left: 25px;
 	padding-top: 25px;
 }
 
 body {
 	text-align: left;
-	background-color: #fffaec;
+	background-color: seashell;
 }
 
 h1 {
@@ -35,9 +35,9 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 65px;
-	letter-spacing: 0.2em;
-	text-decoration: underline;
+	font-size: 85px;
+	
+	
 }
 
 
