@@ -33,7 +33,7 @@ h1 {
 {
 	color: white;
 	font-family: 'Raleway', sans-serif;
-	margin: 75px 0px 75px 0px;
+	margin: 40px 0px 75px 0px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 95px;
@@ -45,7 +45,7 @@ h2 {
 	color: black;
 	font-family: 'Vollkorn', serif;
 	text-align: left;
-	font-size: 45px;
+	font-size: 35px;
 	margin: 75px 105px 75px 105px;
 }
 
@@ -53,7 +53,7 @@ ul {
 	color: black;
 	font-family: 'Vollkorn', serif;
     text-align: left;
-    font-size: 35px;
+    font-size: 25px;
     margin: 0px 0px 75px 95px;
 
     
