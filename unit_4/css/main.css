@@ -4,8 +4,7 @@
 
 
 header {
-	height: 500px;
-	margin: 0px;
+	height: 680px;
 	background: url("https://natpera.github.io/unit_4/images/picktone_hero_u4.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +21,6 @@ body {
 
 h1 {
 	color: white;
-	padding-top: 70px;
 	font-family: 'Permanent Marker', cursive;
 	text-align: center;
 	font-size: 30px;
@@ -33,6 +31,7 @@ h1 {
 {
 	color: white;
 	font-family: 'Raleway', sans-serif;
+	margin: 0px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 100px;
