@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
 	text-align: left;
+}
+
+header {
+	height: 150px;
+	margin: 0px;
 	background: url("https://natpera.github.io/unit_4/images/picktone_hero_u4.jpg");
     background-repeat: no-repeat;
     background-position: center right;
     vertical-align: middle;
+	background-color: #fff;
+	padding-left: 25px;
+	padding-top: 25px;
 }
 
 
 h1 {
-	font-family: Courier, monospace;
-	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+	font-weight: black;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 30px;
+	line-height: 3em;
 }
 
 
