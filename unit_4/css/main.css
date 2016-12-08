@@ -16,21 +16,16 @@ header {
   bottom: 0;
   margin: 0 auto;
   text-align: center;
-}
-
-body {
-	text-align: left;
-}
-
-h1 {
-	font-family: Courier, monospace;
 	font-weight: lighter;
-	text-align: center;
 	text-transform: uppercase;
 	font-size: 25px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	letter-spacing: 2em; 
+}
+
+body {
+	text-align: left;
 }
 
 h2 {
