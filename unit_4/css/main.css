@@ -21,7 +21,7 @@ header {
 h1 {
 	color: white;
 	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	font-family: 'Vollkorn', serif;
     text-transform: uppercase;
 	text-align: center;
@@ -36,8 +36,9 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 80px;
+	font-size: 65px;
 	letter-spacing: 0.5em;
+	text-decoration: underline;
 }
 
 
