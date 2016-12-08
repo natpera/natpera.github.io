@@ -1,13 +1,18 @@
 
 @import url(https://https://fonts.googleapis.com/css?family=Raleway:900);
 
+
 header {
-    float: left;
-    margin:0 0 30px 0;
-    padding: 5px 0 0 0 ;
-    width: 100%;
-    background-image:url(images/picktone_hero_u4.jpg);
-  }
+	height: 150px;
+	margin: 0px
+	background: url("https://natpera.github.io/unit_04/images/picktone_hero_u4");
+    background-repeat: no-repeat;
+    background-position: center right;
+    vertical-align: middle;
+	background-color: #fff;
+	padding-left: 25px;
+	padding-top: 25px;
+}
 
 body {
 	text-align: left;
