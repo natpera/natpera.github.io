@@ -20,11 +20,12 @@ header {
 
 h1 {
 	color: white;
-	padding-top: 30px;
+	padding-top: 75px;
 	font-family: 'Vollkorn', serif;
-	text-decoration: underline;
+    text-transform: uppercase;
 	text-align: left;
-	font-size: 11px;
+	font-size: 20px;
+	letter-spacing: .05em;
 }
 
 #second
@@ -35,7 +36,7 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 65px;
-	letter-spacing: .05em;
+	letter-spacing: 1em;
 }
 
 
