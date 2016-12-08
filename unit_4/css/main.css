@@ -29,6 +29,16 @@ h1 {
 }
 
 
+#logo {
+	height: 110px;
+	background-color: black;
+	float: center;
+	margin-right: 25px;
+	clear: none;
+}
+
+
+
 h2 {
 	font-family: 'Vollkorn', serif;
 	text-decoration: underline;
