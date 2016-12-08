@@ -20,23 +20,23 @@ header {
 
 h1 {
 	color: white;
-	padding-top: 125px;
+	padding-top: 30px;
+	font-family: 'Vollkorn', serif;
+	text-decoration: underline;
+	text-align: left;
+	font-size: 11px;
+}
+
+#second
+{
+	color: white;
+	padding-top: 150px;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 65px;
-	letter-spacing: 1em;
+	letter-spacing: .05em;
 }
-
-
-#logo {
-	height: 110px;
-	background-color: black;
-	float: center;
-	margin-right: 25px;
-	clear: none;
-}
-
 
 
 h2 {
