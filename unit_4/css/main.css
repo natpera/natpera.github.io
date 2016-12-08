@@ -8,6 +8,8 @@ body {
     background-position: center;
     vertical-align: middle;
 	background-color: #fff;
+	padding-left: 25px;
+	padding-top: 25px;
 }
 
 header {
