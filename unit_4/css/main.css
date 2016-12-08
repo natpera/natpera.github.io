@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+header {
+    width: 100%;
+    background-image:url("images/picktone_hero_u4.jpg");
+}
+
+
 body {
 	text-align: left;
 }
