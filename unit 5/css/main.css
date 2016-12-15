@@ -12,11 +12,18 @@ header {
     padding: 20px;
 }
 
-section {
+.about {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
 }
+
+.process {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 
 footer{
     background-color: #FF957E;
