@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:900');
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-@import url('https://fonts.googleapis.com/css?family=Vollkorn');
-
-
-body {
-	color: seashell;
-}
 header {
     background-color: #FFED74;
     border: 1px black solid;
