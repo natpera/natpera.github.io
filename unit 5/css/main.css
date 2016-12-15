@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
 
+body {
+	color: seashell;
+}
 header {
     background-color: #FFED74;
     border: 1px black solid;
@@ -17,6 +20,12 @@ nav {
 
 nav {
     background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer{
+    background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
 }
