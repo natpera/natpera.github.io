@@ -4,93 +4,20 @@
 
 
 header {
-	height: 600px;
-	margin: 0px;
-	background: url("https://natpera.github.io/unit_4/images/picktone_hero_u4.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    vertical-align: middle;
-	background-color: seashell;
-	padding-left: 25px;
-	padding-top: 25px;
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-body {
-	text-align: left;
-	background-color: seashell;
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-h1 {
-	color: white;
-	padding-top: 40px;
-	font-family: 'Permanent Marker', cursive;
-	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
+nav {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-#second
-{
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	margin: 40px 0px 75px 0px;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 100px;
-	letter-spacing: .3em
-}
-
-
-h2 {
-	color: black;
-	font-family: 'Vollkorn', serif;
-	text-align: left;
-	font-size: 40px;
-	margin: 75px 105px 75px 105px;
-}
-
-ul {
-	color: black;
-	font-family: 'Vollkorn', serif;
-    text-align: left;
-    font-size: 25px;
-    margin: 0px 0px 75px 95px;
-
-    
-}
-
-p
-{
-	font-family: 'Vollkorn', serif;
-	text-align: center;
-	text-transform: lowercase;
-	font-size: 20px;
-}
-
-
-a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
