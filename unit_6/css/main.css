@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+nav {
+  background-color: none;
+  font-family: 'Vollkorn', serif;
+  float: right;
+  padding: 10px;
+}
+
+a {
+  color: black;
+  font-family: 'Vollkorn', serif;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 5px 30px;
+}
+
+
+header {
+    height: 600px;
+    margin: 0px;
+    background: url("https://natpera.github.io/unit_4/images/picktone_hero_u4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    background-color: seashell;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+h1 {
+    color: white;
+    padding-top: 40px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#second
+{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 40px 0px 75px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: .3em
+}
+
+#container {
+    margin: 0 auto;
+    width: 900px;
+    background-color: #ffffff;
+}
+
+#article1 {
+    height: 600px;
+    margin: 0px;
+    background: url("https://natpera.github.io/unit_4/images/picktone_hero_u4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    background-color: seashell;
+    padding-left: 25px;
+    padding-top: 25px;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
