@@ -76,39 +76,66 @@ footer{
  
 
 }
+
+#article2 {
+    height: 300px;
+    margin: 0px;
+    background-color: #fb2389;
+    padding: 125px;
+    color: white;
+    font-family: 'Vollkorn', serif;
+    text-align: left;
+    font-size: 45px;
+    font-style: italic;
+ 
+
+}
 .column {
     float: left;
-    width: 396px;
+    width: 350px;
     height: 300px;
     padding: 0px;
     margin: 0;
+    padding: 80px 25px 80px 25px;
 }
 
 #column1 {
-    background: url("https://natpera.github.io/unit_4/images/view_column.jpg");
+  background: url("https://natpera.github.io/unit_6/images/view_column.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    vertical-align: middle;
-  font-family: 'Vollkorn', serif;
+   background-color: white;
+   font-family: 'Vollkorn', serif;
     text-align: center;
+    color: white;
     font-size: 30px;
-    padding-right: 5px;
+    padding-top: 175px;
 }
 
 #column2 {
-  background-color: seashell;
+   background: url("https://natpera.github.io/unit_6/images/our_column.jpg");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
   font-family: 'Vollkorn', serif;
     text-align: center;
     font-size: 30px;
+    color: white;
+    padding-top: 175px;
+
 
 }
 
 #column3 {
-  background-color: seashell;
+  
+   background: url("https://natpera.github.io/unit_6/images/work_column.jpg");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
   font-family: 'Vollkorn', serif;
     text-align: center;
     font-size: 30px;
-    padding-left: 5px;
+    color: white;
+    padding-top: 175px;
 }
 
 .clearfix:after {
