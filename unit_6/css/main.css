@@ -65,13 +65,12 @@ footer{
 }
 
 #article1 {
-    height: 300px;
+    height: 600px;
     margin: 0px;
-    background: url("https://natpera.github.io/unit_4/images/header_new_article1.jpg");
+    background: url("https://natpera.github.io/unit_6/images/header_new_article1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
-    background-color: seashell;
     padding-left: 25px;
     padding-top: 25px;
 
