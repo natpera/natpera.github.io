@@ -65,7 +65,7 @@ footer{
 }
 
 #article1 {
-    height: 300px;
+    height: 250px;
     margin: 0px;
     background-color: #f9f3de;
     padding: 125px;
@@ -78,15 +78,15 @@ footer{
 }
 
 #article2 {
-    height: 300px;
+    height: 250px;
     margin: 0px;
-    background-color: #fb2389;
-    padding: 125px;
     color: white;
-    font-family: 'Vollkorn', serif;
-    text-align: left;
-    font-size: 45px;
-    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    margin: 40px 0px 75px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: .2em
  
 
 }
@@ -100,7 +100,7 @@ footer{
 }
 
 #column1 {
-  background: url("https://natpera.github.io/unit_6/images/view_column.jpg");
+  background: url("https://natpera.github.io/unit_6/images/view-column.jpg");
     background-repeat: no-repeat;
     background-position: center;
    background-color: white;
@@ -112,7 +112,7 @@ footer{
 }
 
 #column2 {
-   background: url("https://natpera.github.io/unit_6/images/our_column.jpg");
+   background: url("https://natpera.github.io/unit_6/images/our-column.jpg");
    background-repeat: no-repeat;
     background-position: center;
     background-color: white;
@@ -127,7 +127,7 @@ footer{
 
 #column3 {
   
-   background: url("https://natpera.github.io/unit_6/images/work_column.jpg");
+   background: url("https://natpera.github.io/unit_6/images/work-column.jpg");
    background-repeat: no-repeat;
     background-position: center;
     background-color: white;
