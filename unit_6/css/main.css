@@ -10,7 +10,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   font-family: 'Vollkorn', serif;
   text-decoration: none;
   display: block;
@@ -55,25 +55,60 @@ footer{
     text-align: center;
     text-transform: uppercase;
     font-size: 100px;
-    letter-spacing: .3em
+    letter-spacing: .2em
 }
 
 #container {
     margin: 0 auto;
-    width: 900px;
+    width: 1200px;
     background-color: #ffffff;
 }
 
 #article1 {
     height: 300px;
     margin: 0px;
-    background: url("https://natpera.github.io/unit_6/images/article_1_process.jpg");
+    background-color: #f9f3de;
+    padding: 125px;
+    color: black;
+    font-family: 'Vollkorn', serif;
+    text-align: left;
+    font-size: 45px;
+ 
+
+}
+.column {
+    float: left;
+    width: 396px;
+    height: 300px;
+    padding: 0px;
+    margin: 0;
+}
+
+#column1 {
+    background: url("https://natpera.github.io/unit_4/images/view_column.jpg");
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
-    padding-left: 25px;
-    padding-top: 25px;
+  font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 5px;
+}
 
+#column2 {
+  background-color: seashell;
+  font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#column3 {
+  background-color: seashell;
+  font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
 }
 
 .clearfix:after {
