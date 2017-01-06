@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
+
+body{
+    background-color: white;
+}
 nav {
   background-color: none;
   font-family: 'Vollkorn', serif;
@@ -40,11 +44,16 @@ h1 {
     font-weight: bold;
 }
 
-
 footer{
-    background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
+    background-color: white;
+    text-align: left;
+  color: gray;
+  font-size: 10px;
+  font-family: 'Vollkorn', serif;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
+  
 }
 
 #second
@@ -67,7 +76,7 @@ footer{
 #article1 {
     height: 250px;
     margin: 0px;
-    background-color: #f9f3de;
+    background-color: #ffe8e8;
     padding: 125px;
     color: black;
     font-family: 'Vollkorn', serif;
@@ -80,36 +89,37 @@ footer{
 #article2 {
     height: 250px;
     margin: 0px;
-    background-color: #fffaec;
+    background-color: #fb2389;
     color: white;
     font-family: 'Raleway', sans-serif;
-    margin: 40px 0px 75px 0px;
+    padding-top: 125px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 50px;
     letter-spacing: .2em
+
  
 
 }
 .column {
     float: left;
-    width: 350px;
+    width: 378px;
     height: 300px;
     padding: 0px;
     margin: 0;
-    padding: 80px 25px 80px 25px;
+    padding: 80px 5px 80px 15px;
 }
 
 #column1 {
   background: url("https://natpera.github.io/unit_6/images/view-column.jpg");
     background-repeat: no-repeat;
     background-position: center;
-   background-color: white;
+    background-color: white;
    font-family: 'Vollkorn', serif;
     text-align: center;
     color: white;
     font-size: 30px;
-    padding-top: 175px;
+    padding-top: 225px;
 }
 
 #column2 {
@@ -121,7 +131,7 @@ footer{
     text-align: center;
     font-size: 30px;
     color: white;
-    padding-top: 175px;
+    padding-top: 225px;
 
 
 }
@@ -131,12 +141,12 @@ footer{
    background: url("https://natpera.github.io/unit_6/images/work-column.jpg");
    background-repeat: no-repeat;
     background-position: center;
-    background-color: white;
+     background-color: white;
   font-family: 'Vollkorn', serif;
     text-align: center;
     font-size: 30px;
     color: white;
-    padding-top: 175px;
+    padding-top: 225px;
 }
 
 .clearfix:after {
