@@ -145,10 +145,7 @@ footer{
     text-transform: uppercase;
     font-size: 100px;
     letter-spacing: .2em
-}
-.second a:hover {
-  color: #black;
-}
+  }
 
 #container {
     margin: 0 auto;
@@ -183,12 +180,8 @@ footer{
 
   }
 
-.em-unit{
-
-}
-
-.pixel-unit{
-
+a {
+    color: hotpink;
 }
 
 
