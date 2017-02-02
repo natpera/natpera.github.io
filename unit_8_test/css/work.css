@@ -105,17 +105,17 @@ body {
 header {
     height: 200%;
     margin: 0 auto;
-    background: url("https://natpera.github.io/unit_4/images/picktone_hero_u4.jpg");
+    background: url("images/whiteheader.jpg");
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
-    background-color: seashell;
+    background-color: white;
     padding-left: 25px;
     padding-top: 25px;
 }
 
 h1 {
-    color: white;
+    color: black;
     padding-top: 40px;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
@@ -137,7 +137,7 @@ footer{
 
 #second
 {
-    color: white;
+    color: black;
     font-family: 'Raleway', sans-serif;
     margin: 40px 0px 75px 0px;
     text-align: center;
@@ -179,13 +179,24 @@ footer{
 
   }
 
-.em-unit{
-
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
-.pixel-unit{
-
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
+
+.col:first-child { margin-left: 0; }
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
 
 
 .clearfix:after {
@@ -197,82 +208,28 @@ footer{
     height: 0;
 }
 
+.span_4_of_4 {
+  width: 100%;
+}
+.span_3_of_4 {
+  width: 74.6%;
+}
+.span_2_of_4 {
+  width: 49.2%;
+}
+.span_1_of_4 {
+  width: 23.8%;
+}
+
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0%; }
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
 @media screen and (max-width: 550px) {
   #second {
     font-size: 8px;
   }
 
-}
-
-// NEW
-
-.overlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: none;
-}
-
-.show {
-  display: inline !important;
-  z-index: 5;
-}
-
-
-.page-header {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: auto;
-  background-color: #CCC;
-}
-.page-header .opener {
-  cursor: pointer;
-}
-
-.showsidebar {
-  left: 0px !important;
-  z-index: 9999;
-}
-
-.sidebar {
-  background: #FFF;
-  font-family: 'Vollkorn', serif;
-  width: 300px;
-  height: 100%;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0px;
-  left: -300px;
-  z-index: 20;
-  -webkit-transition-property: all;
-  -webkit-transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-delay: 0s;
-}
-.sidebar .menu {
-  height: 100%;
-  width: 100%;
-}
-.sidebar .menu .list {
-  list-style: none;
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0px 0px 30px;
-}
-.sidebar .menu .list li {
-  width: 100%;
-  padding: 15px 0px;
-  cursor: pointer;
-}
-.sidebar .menu .list li .nav-item {
-  display: inline;
 }
 
