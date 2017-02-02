@@ -182,6 +182,11 @@ footer{
 
 a {
     color: hotpink;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
