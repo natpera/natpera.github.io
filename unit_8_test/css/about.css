@@ -139,6 +139,10 @@ footer{
   
 }
 
+ul {
+  list-style-type: none;
+}
+
 #second
 {
     color: black;
