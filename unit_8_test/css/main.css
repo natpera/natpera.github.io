@@ -189,17 +189,10 @@ footer{
     height: 0;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (max-width: 550px) {
   #second {
-    font-size: 25px;
+    font-size: 8px;
   }
-
- @media screen and (max-width: 550px){
-  #second {
-    font-size: 25px;
-  }
-
-}
 
 // NEW
 
