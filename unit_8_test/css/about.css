@@ -141,7 +141,8 @@ footer{
 
 ul {
   list-style-type: none;
-  text-align:left;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 #second
