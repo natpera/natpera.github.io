@@ -189,9 +189,14 @@ footer{
     height: 0;
 }
 
-@media screen and (max-width: 667px) (min-width: 375px){
+@media screen and (min-width: 375px){
   #second {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+ @media screen and (min-width: 667px){
+  #second {
+    font-size: 25px;
   }
 
 }
