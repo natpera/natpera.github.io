@@ -189,9 +189,9 @@ footer{
     height: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 667px) (min-width: 375px){
   #second {
-    font-size: 25px;
+    font-size: 30px;
   }
 
 }
