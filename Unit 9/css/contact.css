@@ -48,7 +48,7 @@ body{
 
 .nav-item a:hover {
   color: #black;
-  background: seashell;
+  background: #F5F5F5;
 }
 
 /* Site Wrapper - Everything that isn't navigation */
@@ -135,6 +135,7 @@ footer{
   
 }
 
+
 #second
 {
     color: black;
@@ -144,7 +145,7 @@ footer{
     text-transform: uppercase;
     font-size: 100px;
     letter-spacing: .2em
-}
+  }
 
 #container {
     margin: 0 auto;
@@ -179,24 +180,14 @@ footer{
 
   }
 
-.section {
-  clear: both;
-  padding: 0px;
-  margin: 0px;
+a {
+    color: hotpink;
+    text-decoration: none;
 }
 
-.col {
-  display: block;
-  float:left;
-  margin: 1% 0 1% 1.6%;
+a:hover {
+    text-decoration: underline;
 }
-
-.col:first-child { margin-left: 0; }
-
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
 
 
 .clearfix:after {
@@ -206,24 +197,6 @@ footer{
     content: " ";
     clear: both;
     height: 0;
-}
-
-.span_4_of_4 {
-  width: 100%;
-}
-.span_3_of_4 {
-  width: 74.6%;
-}
-.span_2_of_4 {
-  width: 49.2%;
-}
-.span_1_of_4 {
-  width: 23.8%;
-}
-
-@media only screen and (max-width: 480px) {
-  .col {  margin: 1% 0 1% 0%; }
-  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
 
 @media screen and (max-width: 550px) {

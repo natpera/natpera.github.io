@@ -52,7 +52,7 @@ body{
 
 .nav-item a:hover {
   color: #black;
-  background: seashell;
+  background: #F5F5F5;
 }
 
 /* Site Wrapper - Everything that isn't navigation */
@@ -139,11 +139,6 @@ footer{
   
 }
 
-ul {
-  list-style-type: none;
-  font-family: 'Raleway', sans-serif;
-
-}
 
 #second
 {
@@ -163,10 +158,23 @@ ul {
 }
 
 #section1 {
-    height: 250px;
+    height: 5px;
     margin: 0 auto;
     background-color: #ffe8e8;
     padding: 125px;
+    color: black;
+    font-family: 'Vollkorn', serif;
+    text-align: left;
+    font-size: 2em;
+ 
+
+}
+
+#ulitems {
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ffe8e8;
+    padding: 100px;
     color: black;
     font-family: 'Vollkorn', serif;
     text-align: left;
@@ -181,21 +189,14 @@ ul {
     background-color: #fb2389;
     color: white;
     font-family: 'Raleway', sans-serif;
-    padding-top: 125px;
+    padding-top: 65px;
+    padding-bottom: 15px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    font-size: 2em;
+    font-size: 1em;
 
   }
-
-.em-unit{
-
-}
-
-.pixel-unit{
-
-}
 
 
 .clearfix:after {
@@ -209,8 +210,23 @@ ul {
 
 @media screen and (max-width: 550px) {
   #second {
-    font-size: 16px;
+    font-size: 22px;
   }
 
 }
 
+
+@media screen and (max-width: 550px) {
+  #section1 {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  #ulitems{
+    font-size: 22px;
+    padding-top: 175px;
+  }
+
+}

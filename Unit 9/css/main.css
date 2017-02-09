@@ -47,8 +47,8 @@ body{
 }
 
 .nav-item a:hover {
-  color: #black;
-  background: seashell;
+  color: black;
+  background: #F5F5F5;
 }
 
 /* Site Wrapper - Everything that isn't navigation */
@@ -179,14 +179,6 @@ footer{
 
   }
 
-.em-unit{
-
-}
-
-.pixel-unit{
-
-}
-
 
 .clearfix:after {
     visibility: hidden;
@@ -199,8 +191,17 @@ footer{
 
 @media screen and (max-width: 550px) {
   #second {
-    font-size: 8px;
+    font-size: 30px;
   }
 
 }
+
+@media screen and (max-width: 550px) {
+  #section1 {
+    font-size: 22px;
+  }
+
+}
+
+
 

@@ -48,7 +48,7 @@ body{
 
 .nav-item a:hover {
   color: #black;
-  background: seashell;
+  background: #F5F5F5;
 }
 
 /* Site Wrapper - Everything that isn't navigation */
@@ -135,6 +135,9 @@ footer{
   
 }
 
+.div{
+  background color: white;
+}
 
 #second
 {
@@ -145,7 +148,7 @@ footer{
     text-transform: uppercase;
     font-size: 100px;
     letter-spacing: .2em
-  }
+}
 
 #container {
     margin: 0 auto;
@@ -153,41 +156,25 @@ footer{
     background-color: #ffffff;
 }
 
-#section1 {
-    height: 250px;
-    margin: 0 auto;
-    background-color: #ffe8e8;
-    padding: 125px;
-    color: black;
-    font-family: 'Vollkorn', serif;
-    text-align: left;
-    font-size: 2em;
- 
 
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
-#section2{
-    height: 250px;
-    margin: 0 auto;
-    background-color: #fb2389;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 125px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    font-size: 2em;
-
-  }
-
-a {
-    color: hotpink;
-    text-decoration: none;
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+.col:first-child { margin-left: 0; }
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
 
 
 .clearfix:after {
@@ -199,10 +186,34 @@ a:hover {
     height: 0;
 }
 
+.span_4_of_4 {
+  width: 100%;
+}
+.span_3_of_4 {
+  width: 74.6%;
+}
+.span_2_of_4 {
+  width: 49.2%;
+}
+.span_1_of_4 {
+  width: 23.8%;
+}
+
+div {
+    background-color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .col {  margin: 1% 0 1% 0; }
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
 @media screen and (max-width: 550px) {
   #second {
-    font-size: 16px;
+    font-size: 22px;
   }
 
 }
+
+
 
