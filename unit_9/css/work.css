@@ -215,5 +215,13 @@ div {
 
 }
 
+@media screen and (max-width: 550px) {
+  #section1 {
+    font-size: 22px;
+     padding: 30px;
+  }
+
+}
+
 
 
