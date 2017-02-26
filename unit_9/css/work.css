@@ -209,14 +209,22 @@ background-color: white;
 .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {width: 100%;}
 }
 
-@media screen and (max-width: 550px) {
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
 #second {
 font-size: 30px;
 }
 
 }
 
-@media screen and (max-width: 550px) {
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
 #section1 {
 font-size: 22px;
 padding: 30px;
